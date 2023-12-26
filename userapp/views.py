@@ -6,7 +6,6 @@ from rest_framework.authtoken.models import Token
 from rest_framework.permissions import IsAuthenticated
 from django.core.exceptions import ObjectDoesNotExist
 from .models import UserManager, CustomUser, Post, Follow
-from .forms import loginForm
 from django.http import JsonResponse, request
 from django.views import View
 import json
